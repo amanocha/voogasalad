@@ -5,6 +5,11 @@ import javafx.scene.control.ToggleGroup;
 import javafx.scene.paint.Color;
 
 /**
+ * 
+ * CODE MASTERPIECE hg75
+ * This class goes hand in hand with the UIBuilder. We can create a new list of properties by simply doing new ComponentProperties(x, y).width(20).height(20).text("You get the idea");
+ * This can then be passed into the UIBuilder, and then a subclass of UIBuilder will build the specific object.
+ * 
  * @author Harshil Garg, Robert Steilberg
  *         <p>
  *         This class holds information used to build JavaFX ui.scenes.controller.editor.objects.
