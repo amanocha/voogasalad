@@ -13,6 +13,13 @@ import javafx.stage.Stage;
 import java.util.ResourceBundle;
 
 /**
+ * CODE MASTERPIECE (hg75)
+ * The UIBuilder was a class I originally envisioned and designed in the original few commits and then later was expanded and eventually used by the entire
+ * frontend team. The UIBuilder allows for quick and easy construction of basic UI components like Buttons, Panes, RadioBoxes, Alerts, Labels, TextFields, etc.
+ * Since all of these JavaFX UI components have certain properties that I have to set each time I create a new instance, such as width, height, x, y, angle, color, etc.
+ * the UIBuilder helps to mitigate the pain by allowing method chaining to set these properties by using the ComponentProperties class. The UIBuilder can be instantiated
+ * anywhere in the program, and can be used to add components dynamically to a given Parent.
+ * 
  * @author Harshil Garg, Robert Steilberg, Aninda Manocha, Nisakorn Valyasevi
  *         <p>
  *         This class is used to build JavaFX objects
