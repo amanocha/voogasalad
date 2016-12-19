@@ -14,6 +14,13 @@ import utilities.builder.ComponentProperties;
 import utilities.builder.UIBuilder;
 
 /**
+ * CODE MASTERPIECE hg75
+ * Yes, this class is deprecated, but only because Robert cloned it to change the CSS and visual look. However if you replace his class name with mine anywhere in the project,
+ * it works the same, but simply the SizeChooser that pops up is different. Anyways, this class in my opinion is beautifully written precisely because of the UI builder.
+ * I have so many components placed on the screen here: 5 labels, 4 text inputs, and 1 button. Because I used string arrays, I can generalize by just using a for loop
+ * instead having to hardcode each component by hand, and I can also generate dynamic ComponentProperties for use with my UIBuilder. This class demonstrates and highlights just
+ * how powerful UIBuilder can be. Without UIBuilder or intuitive for loops, this class could be much, much longer and hard to read.
+ * 
  * @author Harshil Garg, Robert Steilberg
  */
 @Deprecated
