@@ -1,3 +1,22 @@
+/*
+ * Aninda Manocha (am548)
+ *
+ * This entire file is part of my masterpiece. I believe this class, which serves as the editor controller, represents
+ * good design because it assumes the role of a proper controller by controlling the flow of data into and out of the
+ * model. The model consists of a player manager and a grid manager, which handle the player instance and grid instance
+ * respectively. A controller should not implement functions and carry out the logic that a class in the model would be
+ * responsible for. It should instead control the model and this class does that by delegating tasks to the player and
+ * grid managers. This class catches exceptions that arise in the model so that alert boxes can be created to display
+ * the error to the user, so it is also sending information to a class in the view so that the appropriate content is
+ * displayed based on the data from the model. This class almost acts like an interface in that the methods contain very
+ * little implementation, but make it clear what commands the frontend can call. There are a few actions for each major
+ * component in the model and these correspond to actions that the user would want to do in the authoring environment,
+ * such as adding a player, player attribute, or grid. The names of methods are very clear and this code is very well-
+ * documented and readable. Overall, I think this class exhibits the modularity in our project by serving as a barrier
+ * between the frontend and backend, and then containing different parts of the model (each of which is responsible for
+ * its own component: player, grid, data) to send and receive data from so that the view (alert display) can be updated.
+ */
+
 package controller.editor;
 
 import api.Controller;
@@ -17,7 +36,7 @@ import model.xml.GridXMLHandler;
 import java.util.List;
 
 /**
- * This is the controller for the game controller.editor. It allows the backend and frontend to talk to each other while the controller.editor
+ * This is the controller for the game editor. It allows the backend and frontend to talk to each other while the editor
  * is being created.
  * @author Aninda Manocha, Filip Mazurek
  */
